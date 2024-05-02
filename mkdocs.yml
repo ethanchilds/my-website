@@ -15,16 +15,16 @@ theme:
 
    palette: 
 
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: deep purple
-      accent: indigo
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
+      primary: deep purple
+      accent: indigo
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
       primary: deep purple
       accent: indigo
 
