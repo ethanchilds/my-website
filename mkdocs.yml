@@ -2,11 +2,14 @@ site_name: Ethan Childs
 
 nav:
   - index.md
+  - Projects: projects.md
   - Blog:
     - blog/index.md
 
 theme:
    name: material
+
+   custom_dir: docs/overrides
 
    features:
     - navigation.tabs
@@ -15,20 +18,25 @@ theme:
     - search.suggest
     - search.highlight
 
-   palette: 
-
-    - scheme: slate 
+   palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: purple
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: deep purple
-      accent: indigo
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: deep purple
-      accent: indigo
+      accent: purple
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
 
    
 plugins:
