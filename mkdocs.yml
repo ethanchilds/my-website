@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Ethan Childs
 
 nav:
   - index.md
@@ -12,6 +12,8 @@ theme:
     - navigation.tabs
     - navigation.indexes
     - navigation.sections
+    - search.suggest
+    - search.highlight
 
    palette: 
 
@@ -31,3 +33,11 @@ theme:
    
 plugins:
   - blog
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/ethanchilds
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ethanchilds13/
