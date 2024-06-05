@@ -3,8 +3,9 @@ authors:
   - Ethan
 date: 2024-06-03
 categories:
-  - Data Science
-  - Testing
+  - Statistcs
+  - Exploration
+  - Senior Project
 ---
 
 # Exploring the Predictive Power of Math Praxis Scores
